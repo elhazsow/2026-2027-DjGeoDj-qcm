@@ -671,10 +671,9 @@ const serieC = [
   }
 ];
 
+
 const seriesDisponibles = {
   A: serieA,
   B: serieB,
   C: serieC
 };
-
-
