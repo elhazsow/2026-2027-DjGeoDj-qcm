@@ -1,0 +1,22 @@
+[
+  {"model": "cartographie.commune", "pk": 1, "fields": {"nom": "Thiès-Nord"}},
+  {"model": "cartographie.commune", "pk": 2, "fields": {"nom": "Thiès-Est"}},
+  {"model": "cartographie.commune", "pk": 3, "fields": {"nom": "Thiès-Ouest"}},
+
+  {"model": "cartographie.categorie", "pk": 1, "fields": {"nom": "Hôpital", "code": "HOP"}},
+  {"model": "cartographie.categorie", "pk": 2, "fields": {"nom": "Centre de santé", "code": "CS"}},
+  {"model": "cartographie.categorie", "pk": 3, "fields": {"nom": "Poste de santé", "code": "PS"}},
+  {"model": "cartographie.categorie", "pk": 4, "fields": {"nom": "Pharmacie", "code": "PHA"}},
+  {"model": "cartographie.categorie", "pk": 5, "fields": {"nom": "Clinique privée", "code": "CLI"}},
+
+  {"model": "cartographie.etablissement", "pk": 1, "fields": {"nom": "Hôpital régional (synthétique)", "adresse": "Centre-ville", "categorie": 1, "commune": 3}},
+  {"model": "cartographie.etablissement", "pk": 2, "fields": {"nom": "Hôpital Nord (synthétique)", "adresse": "Route de Dakar", "categorie": 1, "commune": 1}},
+  {"model": "cartographie.etablissement", "pk": 3, "fields": {"nom": "Centre de santé Est", "adresse": "Cité Lamy", "categorie": 2, "commune": 2}},
+  {"model": "cartographie.etablissement", "pk": 4, "fields": {"nom": "Centre de santé Ouest", "adresse": "Randoulène", "categorie": 2, "commune": 3}},
+  { "model": "cartographie.etablissement","pk": 5, "fields": {"nom": "Poste de santé Nord 1", "adresse": "Quartier Nord", "categorie": 3, "commune": 1}},
+  { "model": "cartographie.etablissement","pk": 6, "fields": {"nom": "Poste de santé Est 1", "adresse": "Quartier Est", "categorie": 3, "commune": 2}},
+  { "model": "cartographie.etablissement","pk": 7, "fields": {"nom": "Poste de santé Ouest 1", "adresse": "Quartier Ouest", "categorie": 3, "commune": 3}},
+  { "model": "cartographie.etablissement","pk": 8, "fields": {"nom": "Pharmacie du Centre", "adresse": "Avenue principale", "categorie": 4, "commune": 3}},
+  { "model": "cartographie.etablissement","pk": 9, "fields": {"nom": "Pharmacie de la Gare", "adresse": "Près de la gare", "categorie": 4, "commune": 2}},
+  {"model": "cartographie.etablissement", "pk": 10, "fields": {"nom": "Pharmacie Nord", "adresse": "Route de Dakar", "categorie": 4, "commune": 3}},
+]   

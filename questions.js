@@ -592,83 +592,83 @@ const serieC = [
       ["D", "intersects"]
     ]
   },
-  {
-    module: "Module 4 — GeoDjango, PostGIS et CRS",
-    title: "Limites d’un index spatial",
-    text: "Une géométrie invalide est stockée dans une table PostGIS. Que peut-on conclure de la présence d’un index spatial ?",
-    options: [
-      ["A", "L’index n’assure pas à lui seul la validité géométrique"],
-      ["B", "L’index corrige automatiquement la géométrie"],
-      ["C", "L’index transforme la géométrie dans le bon CRS"],
-      ["D", "L’index supprime les erreurs d’attributs"]
-    ]
-  },
-  {
-    module: "Module 5 — API, GeoJSON et Leaflet",
-    title: "Coordonnées dans GeoJSON",
-    text: "Pour un point GeoJSON bidimensionnel conforme à RFC 7946, quelle information est placée en premier dans le tableau des coordonnées ?",
-    options: [
-      ["A", "La latitude"],
-      ["B", "La longitude"],
-      ["C", "Le code EPSG"],
-      ["D", "L’unité de distance"]
-    ]
-  },
-  {
-    module: "Module 5 — API, GeoJSON et Leaflet",
-    title: "Propriétés exposées par une API",
-    text: "Une fiche cartographique n’a besoin que du nom, de la catégorie et de la géométrie d’un établissement. Quelle pratique est la plus sûre ?",
-    options: [
-      ["A", "Exposer toutes les colonnes de la base sans distinction"],
-      ["B", "Ajouter les mots de passe aux propriétés GeoJSON"],
-      ["C", "Ne sérialiser que les propriétés nécessaires à la fonctionnalité"],
-      ["D", "Envoyer les données de tous les utilisateurs connectés"]
-    ]
-  },
-  {
-    module: "Module 5 — API, GeoJSON et Leaflet",
-    title: "Fonctionnement de Leaflet",
-    text: "Quelle affirmation décrit le rôle de Leaflet dans une application WebSIG classique ?",
-    options: [
-      ["A", "Leaflet remplace PostgreSQL"],
-      ["B", "Leaflet crée les migrations Django"],
-      ["C", "Leaflet stocke la base métier côté serveur"],
-      ["D", "Leaflet affiche la carte et gère les interactions dans le navigateur"]
-    ]
-  },
-  {
-    module: "Module 6 — Tests et déploiement",
-    title: "Protection des secrets",
-    text: "Où est-il préférable de stocker les mots de passe de base de données et les clés privées utilisés par l’application en production ?",
-    options: [
-      ["A", "Dans des variables d’environnement ou un gestionnaire de secrets adapté"],
-      ["B", "Dans un dépôt Git public"],
-      ["C", "Dans le code JavaScript envoyé au navigateur"],
-      ["D", "Dans les propriétés GeoJSON"]
-    ]
-  },
-  {
-    module: "Module 6 — Tests et déploiement",
-    title: "Environnement de test spatial",
-    text: "Une fonctionnalité repose sur des prédicats spatiaux PostGIS. Quelle stratégie de test donne une évaluation plus fiable de cette fonctionnalité ?",
-    options: [
-      ["A", "Tester uniquement que le bouton s’affiche"],
-      ["B", "Ne jamais créer de géométrie de test"],
-      ["C", "Tester les requêtes avec des données contrôlées dans un backend spatial compatible"],
-      ["D", "Remplacer les résultats de requête par des valeurs codées en dur"]
-    ]
-  },
-  {
-    module: "Module 6 — Tests et déploiement",
-    title: "Traçabilité des données",
-    text: "Pourquoi documenter la date, la source, la licence et les limites d’un jeu de données géographiques ?",
-    options: [
-      ["A", "Pour faire disparaître les erreurs de mesure"],
-      ["B", "Pour permettre d’évaluer sa provenance, sa réutilisation et la portée des résultats"],
-      ["C", "Pour remplacer les tests de l’application"],
-      ["D", "Pour garantir que tous les objets sont à jour"]
-    ]
-  }
+  // {
+  //   module: "Module 4 — GeoDjango, PostGIS et CRS",
+  //   title: "Limites d’un index spatial",
+  //   text: "Une géométrie invalide est stockée dans une table PostGIS. Que peut-on conclure de la présence d’un index spatial ?",
+  //   options: [
+  //     ["A", "L’index n’assure pas à lui seul la validité géométrique"],
+  //     ["B", "L’index corrige automatiquement la géométrie"],
+  //     ["C", "L’index transforme la géométrie dans le bon CRS"],
+  //     ["D", "L’index supprime les erreurs d’attributs"]
+  //   ]
+  // },
+  // {
+  //   module: "Module 5 — API, GeoJSON et Leaflet",
+  //   title: "Coordonnées dans GeoJSON",
+  //   text: "Pour un point GeoJSON bidimensionnel conforme à RFC 7946, quelle information est placée en premier dans le tableau des coordonnées ?",
+  //   options: [
+  //     ["A", "La latitude"],
+  //     ["B", "La longitude"],
+  //     ["C", "Le code EPSG"],
+  //     ["D", "L’unité de distance"]
+  //   ]
+  // },
+  // {
+  //   module: "Module 5 — API, GeoJSON et Leaflet",
+  //   title: "Propriétés exposées par une API",
+  //   text: "Une fiche cartographique n’a besoin que du nom, de la catégorie et de la géométrie d’un établissement. Quelle pratique est la plus sûre ?",
+  //   options: [
+  //     ["A", "Exposer toutes les colonnes de la base sans distinction"],
+  //     ["B", "Ajouter les mots de passe aux propriétés GeoJSON"],
+  //     ["C", "Ne sérialiser que les propriétés nécessaires à la fonctionnalité"],
+  //     ["D", "Envoyer les données de tous les utilisateurs connectés"]
+  //   ]
+  // },
+  // {
+  //   module: "Module 5 — API, GeoJSON et Leaflet",
+  //   title: "Fonctionnement de Leaflet",
+  //   text: "Quelle affirmation décrit le rôle de Leaflet dans une application WebSIG classique ?",
+  //   options: [
+  //     ["A", "Leaflet remplace PostgreSQL"],
+  //     ["B", "Leaflet crée les migrations Django"],
+  //     ["C", "Leaflet stocke la base métier côté serveur"],
+  //     ["D", "Leaflet affiche la carte et gère les interactions dans le navigateur"]
+  //   ]
+  // },
+  // {
+  //   module: "Module 6 — Tests et déploiement",
+  //   title: "Protection des secrets",
+  //   text: "Où est-il préférable de stocker les mots de passe de base de données et les clés privées utilisés par l’application en production ?",
+  //   options: [
+  //     ["A", "Dans des variables d’environnement ou un gestionnaire de secrets adapté"],
+  //     ["B", "Dans un dépôt Git public"],
+  //     ["C", "Dans le code JavaScript envoyé au navigateur"],
+  //     ["D", "Dans les propriétés GeoJSON"]
+  //   ]
+  // },
+  // {
+  //   module: "Module 6 — Tests et déploiement",
+  //   title: "Environnement de test spatial",
+  //   text: "Une fonctionnalité repose sur des prédicats spatiaux PostGIS. Quelle stratégie de test donne une évaluation plus fiable de cette fonctionnalité ?",
+  //   options: [
+  //     ["A", "Tester uniquement que le bouton s’affiche"],
+  //     ["B", "Ne jamais créer de géométrie de test"],
+  //     ["C", "Tester les requêtes avec des données contrôlées dans un backend spatial compatible"],
+  //     ["D", "Remplacer les résultats de requête par des valeurs codées en dur"]
+  //   ]
+  // },
+  // {
+  //   module: "Module 6 — Tests et déploiement",
+  //   title: "Traçabilité des données",
+  //   text: "Pourquoi documenter la date, la source, la licence et les limites d’un jeu de données géographiques ?",
+  //   options: [
+  //     ["A", "Pour faire disparaître les erreurs de mesure"],
+  //     ["B", "Pour permettre d’évaluer sa provenance, sa réutilisation et la portée des résultats"],
+  //     ["C", "Pour remplacer les tests de l’application"],
+  //     ["D", "Pour garantir que tous les objets sont à jour"]
+  //   ]
+  // }
 ];
 
 
@@ -677,3 +677,13 @@ const seriesDisponibles = {
   B: serieB,
   C: serieC
 };
+
+
+fetch('/api/etablissements.geojson')
+ .then(r => r.json())
+  .then(data => L.geoJSON(data, {
+       onEachFeature: (f, layer) => {
+             layer.bindPopup(f.properties.nom);
+               }
+               }).addTo(map));
+
